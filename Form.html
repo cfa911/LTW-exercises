@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Ze Form</title>
@@ -13,11 +13,8 @@
             Its a form
         </h1>
     </header>
-
-    <section>
-
         <form action="save.php" method="get">
-            
+
             <!-- form controls go here -->
             <fieldset>
                 <legend>Personal data:</legend>
@@ -47,22 +44,16 @@
                 <input type="checkbox" name="interest" value="action movies">action movies
 
             </fieldset>
-            <div><label>How did you discover de site?
-                    <textarea name="site-discovery" rows="4" cols="50">
-
-
-
-
-
-
-
-                    </textarea>
+                <label for="comment">
+                    How did you reach this site?
                 </label>
-            </div>
-            
+                <textarea id= "comment" name="site-discovery" rows="4" cols="50">
+
+                </textarea>
+                
+
         </form>
         <input type="submit" value="Send">
-    </section>
 </body>
 
 </html>
