@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ze Form</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+
+        <h1>
+            Its a form
+        </h1>
+    </header>
+
+    <section>
+
+        <form action="save.php" method="get">
+            
+            <!-- form controls go here -->
+            <fieldset>
+                <legend>Personal data:</legend>
+                <label>Name:
+                    <input type="text" name="name">
+                </label>
+                <label>Interests: </label>
+                <input type="radio" name="age" value="&lt18"> &lt;18
+                <input type="radio" name="age" value="19-35"> 19-35
+                <input type="radio" name="age" value="36-48"> 36-48
+                <input type="radio" name="age" value=">49"> >49
+                <label>Profession:
+                    <input type="text" name="profession">
+                </label>
+                <label>Country: </label>
+                <select name="country">
+                    <option value="portugal">Portugal</option>
+                    <option value="england" selected>England</option>
+                    <option value="france">France</option>
+                    <option value="russia">Russia</option>
+                </select>
+
+                <label>Interests: </label>
+                <input type="checkbox" name="interest" value="computer games">computer games
+                <input type="checkbox" name="interest" value="archaeology">archaeology
+                <input type="checkbox" name="interest" value="sledding">sledding
+                <input type="checkbox" name="interest" value="action movies">action movies
+
+            </fieldset>
+            <div><label>How did you discover de site?
+                    <textarea name="site-discovery" rows="4" cols="50">
+
+
+
+
+
+
+
+                    </textarea>
+                </label>
+            </div>
+            
+        </form>
+        <input type="submit" value="Send">
+    </section>
+</body>
+
+</html>
