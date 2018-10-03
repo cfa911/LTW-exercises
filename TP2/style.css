@@ -1,0 +1,73 @@
+body > header{
+    background-color: rgb(42, 83, 197);
+    font-family: "Verdana";
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+body > header h1{
+    font-size: 1.5em;
+    margin: 0%;
+    margin-left:10px;
+}
+body > header h2{
+    font-size: 0.75em;
+    margin: 0%;
+    margin-left: 10px;
+}
+body > header div a{
+    font-size: 0.75em;
+    margin: 0%;
+    margin-left: 10px;
+}
+input{
+display: none;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+
+article header a{
+    color:white;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+aside{
+    background-color: rgb(45, 49, 58);
+    color:white;
+    
+    /*do border*/
+    
+    
+}
+aside a{
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+li a{
+    color:black;
+    text-align: right;
+}
+p{
+    font-family:"Georgia";
+    text-transform: capitalize;
+}
+#news p:first-of-type:first-letter{
+    float: up;
+    font-size: 1.5em;
+}
+
+article footer{
+    background-color: rgb(185, 53, 53);
+    color: aliceblue;
+    font-family: "Verdana";
+}
+article footer a{
+    color: aliceblue;
+}
+footer{
+    background-color: rgb(45, 49, 58);
+    color: white;
+}
