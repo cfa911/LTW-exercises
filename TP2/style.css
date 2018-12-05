@@ -1,8 +1,73 @@
+body{
+    margin-left: 10em ;
+    margin-right: 10em ;
+    
+}
+#menu ul{
+    padding:0;
+    text-decoration: none;
+    text-align: center;
+    list-style-type:none;
+    margin: 0;
+}
+#menu li{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 0.9em;
+}
+#menu > ul >:nth-child(1){
+    border:0;
+    border-top-width: 0.4em;
+    border-style: solid;
+    border-color: #E1493E;
+}
+
+#menu > ul >:nth-child(2){
+    border:0;
+    border-top-width: 0.4em;
+    border-style: solid;
+    border-color: #8ABA56;
+}
+
+#menu > ul >:nth-child(3){
+    border:0;
+    border-top-width: 0.4em;
+    border-style: solid;
+    border-color: #5B4282;
+}
+
+#menu > ul >:nth-child(4){
+    border:0;
+    border-top-width: 0.4em;
+    border-style: solid;
+    border-color: #FF8932;
+}
+#menu > ul >:nth-child(5){
+    border:0;
+    border-top-width: 0.4em;
+    border-style: solid;
+    border-color: #19B6E9;
+}
+#menu > ul >:nth-child(6){
+    border:0;
+    border-top-width: 0.4em;
+    border-style: solid;
+    border-color: #E84C8B;
+}
+
+#menu a{
+    
+    text-decoration: none;
+    font-family: "Verdana";
+    font-weight: 600;
+}
+
 body > header{
-    background-color: rgb(42, 83, 197);
+    background-color: #046DD5;
     font-family: "Verdana";
     padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
+    border-width: 0;
 }
 body > header h1{
     font-size: 1.5em;
@@ -25,34 +90,45 @@ display: none;
 header a{
     color:white;
     text-decoration: none;
-}
+    font-family: verdana, sans-serif;
 
+}
+article header{
+    position: absolute;
+    width: 15em;
+    margin: 2em;
+}
 article header a{
     color:white;
     text-decoration: none;
-    text-shadow: 2px 2px 8px #000000;
+    text-shadow: 4px 4px 8px #000000;
+    font-size: 1.2em;
 }
 
 aside{
     background-color: rgb(45, 49, 58);
     color:white;
-    
-    /*do border*/
-    
-    
+    padding: 1em;
 }
 aside a{
     color:white;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: verdana, sans-serif;
 }
 li a{
     color:black;
     text-align: right;
 }
+img{
+    width: 99em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
 p{
     font-family:"Georgia";
     text-transform: capitalize;
+    margin-left:1.5em;
+    margin-right:1.5em;
 }
 #news p:first-of-type:first-letter{
     float: up;
@@ -60,9 +136,11 @@ p{
 }
 
 article footer{
-    background-color: rgb(185, 53, 53);
+    background-color: #F4655F;
+    padding:1em;
+    font-size: 0.8em;
     color: aliceblue;
-    font-family: "Verdana";
+    font-family: verdana, sans-serif;
 }
 article footer a{
     color: aliceblue;
